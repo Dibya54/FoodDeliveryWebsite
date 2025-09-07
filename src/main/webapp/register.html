@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+	integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Registration Page</title>
+</head>
+<body>
+	<div class="container">
+		<div class="form-container">
+			<div id="sign-up">
+				<h2>Sign-Up</h2>
+				<form action="Register" id="form" method="POST">
+					<label for=""><i class="fa-solid fa-user-large"></i>Name</label>
+					<input type="text" name="name" id="rname" placeholder="Enter Name">
+					<p id="name_error"></p>
+					
+					<label for=""><i class="fa-solid fa-envelope"></i>Email</label>
+					<input type="email" name="email" id="remail" placeholder="you@gmail.com">
+					<p id="email_error"></p>
+					
+					<label for=""><i class="fa-solid fa-phone"></i>Mobile</label>
+					<input type="number" name="mobile" id="rnumber" placeholder="+91">
+					<p id="mobile_error"></p>
+					
+					<label for=""><i class="fa-solid fa-key"></i>Password</label>
+					<input type="password" name="password" id="rpassword" placeholder="Password">
+					<p id="password_error"></p>
+					
+					<label for=""><i class="fa-solid fa-key"></i>Confirm Password</label>
+					<input type="password" name="password" id="rcpassword" placeholder="Confirm Password">
+					<p id="confirm_password_error"></p>
+					
+					<span>Already have an account? <a href="login.html">Login</a></span>
+					<button type="submit">Create Account</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+
+
+:root{
+    --white:#fff;
+    --black:#000;
+    --orange: ;
+    --rose: #FF0080;
+    --aqua: #0FFFFF;
+    --light-green: #66FF00;
+    --green: #00FF00;
+    --blue: #007FFF;
+    --dark-blue: #0000FF;
+    --red: #FF0000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    max-width: 100%;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    color: var(--rose);
+    font-size: 15px;
+    margin-right: 5px;
+}
+.form-container{
+    width: 600px;
+    background: rgba(0,0,0,0.9);
+    border-radius: 3px;
+    box-shadow: 0 0 10px black, 0 0 15px black;
+    display: flex;
+    overflow-x:hidden;
+    border: 2.5px solid var(--black);
+}
+.form-container #sign-up{
+    min-width: 100%;
+    padding: 20px 58px;
+}
+.form-container #sign-up h2{
+    text-align: center;
+    color: var(--blue);
+    font-size: 29px;
+    font-weight: 400;
+    text-decoration: underline var(--green) double;
+    margin: 4px 0 15px 0;
+}
+.form-container #sign-up input{
+    width: 100%;
+    padding: 3px 0 6px 0;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    margin: 5px 0 0 0;
+    color: var(--white);
+    border-bottom: 0.3px solid var(--white);
+    font-size: 15px;
+}
+.form-container #sign-up label{
+    color: var(--aqua);
+    font-size: 18px;
+    padding-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
+.form-container #sign-up p{
+    color: var(--red);
+    margin:5px 0 20px 0;
+    font-weight: 100;
+    font-size: 13px;
+}
+.form-container #sign-up span{
+    color: var(--white);
+}
+.form-container #sign-up span a{
+    color: var(--dark-blue);
+    padding-left: 4px;
+    font-size: 19px;
+}
+.form-container #sign-up button{
+    width: 100%;
+    padding: 10px 0;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    background: var(--rose);
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 17px;
+}
+
+/* Sign In form Styling */
+.form-container #sign-in{
+    min-width: 100%;
+    padding: 20px 58px;
+    margin-top: 100px;
+}
+.form-container #sign-in h2{
+    text-align: center;
+    color: var(--blue);
+    font-size: 29px;
+    font-weight: 400;
+    text-decoration: underline var(--green) double;
+    margin: 4px 0 85px 0;
+}
+.form-container #sign-in input{
+    width: 100%;
+    padding: 3px 0 6px 0;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    margin: 5px 0 0 0;
+    color: var(--white);
+    border-bottom: 0.3px solid var(--white);
+    font-size: 15px;
+}
+.form-container #sign-in label{
+    color: var(--aqua);
+    font-size: 18px;
+    padding-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
+.form-container #sign-in p{
+    color: var(--red);
+    margin:5px 0 30px 0;
+    font-weight: 100;
+    font-size: 13px;
+}
+.form-container #sign-in span{
+    color: var(--white);
+}
+.form-container #sign-in span a{
+    color: var(--dark-blue);
+    padding-left: 4px;
+    font-size: 19px;
+}
+.form-container #sign-in button{
+    width: 100%;
+    padding: 10px 0;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    background: var(--rose);
+    margin: 40px 0 10px 0;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 17px;
+}
